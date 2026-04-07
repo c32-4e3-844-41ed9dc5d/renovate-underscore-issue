@@ -1,1 +1,16 @@
-{}
+{
+  "enabledManagers": [
+    "dockerfile"
+  ],
+  {
+    "matchManagers": [
+      "dockerfile"
+    ],
+    "groupName": "Docker images",
+    "matchUpdateTypes": [
+      "minor",
+      "patch",
+      "digest"
+    ]
+  }
+}
