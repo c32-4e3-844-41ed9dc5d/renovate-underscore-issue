@@ -2,15 +2,17 @@
   "enabledManagers": [
     "dockerfile"
   ],
-  {
-    "matchManagers": [
-      "dockerfile"
-    ],
-    "groupName": "Docker images",
-    "matchUpdateTypes": [
-      "minor",
-      "patch",
-      "digest"
-    ]
-  }
+  "packageRules": [
+    {
+      "matchManagers": [
+        "dockerfile"
+      ],
+      "groupName": "Docker images",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest"
+      ]
+    }
+  ]
 }
